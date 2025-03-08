@@ -89,7 +89,7 @@ PathMNIST 是 MedMNIST 數據集系列的一部分，專門用於病理學圖像
 
 ### 3. Vision Transformer (ViT)
 - 基於 Transformer 架構的視覺模型
-- 特點：將圖像分割成小塊進行處理，注意力機制強大
+- 特點：將圖像分割成小塊進行處理，注意力機制強大，但需要海量資料才訓練的來
 - 位置：`models/vit.py`
 
 ## 數據處理
