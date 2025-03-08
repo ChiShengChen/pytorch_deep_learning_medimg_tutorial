@@ -1,6 +1,6 @@
 # 醫學影像分類模型比較專案
 
-這個專案實現了三種不同的深度學習模型（VGG16、ResNet18、ViT）來進行醫學影像分類任務，使用 PathMNIST 數據集。
+這個專案實現了三種不同的深度學習模型（VGG16、ResNet18、ViT）來進行醫學影像分類任務，使用 PathMNIST 資料集。
 
 ## 專案結構
 
@@ -12,8 +12,8 @@ medical_image_classification/
 │ ├── resnet.py # ResNet18 模型
 │ └── vit.py # Vision Transformer 模型
 │
-├── data/ # 數據處理
-│ └── dataset.py # 數據載入和預處理
+├── data/ # 資料處理
+│ └── dataset.py # 資料載入和預處理
 │
 ├── utils/ # 工具函數
 │ └── trainer.py # 訓練相關函數
@@ -41,10 +41,10 @@ python main.py
 這將訓練和測試三個模型，並保存訓練好的模型到 `checkpoints` 目錄中。
 
 
-## 數據處理
+## 資料處理
 
-### PathMNIST 數據集介紹
-PathMNIST 是 MedMNIST 數據集系列的一部分，專門用於病理學圖像分類：
+### PathMNIST 資料集介紹
+PathMNIST 是 MedMNIST 資料集系列的一部分，專門用於病理學圖像分類：
 ![image](https://github.com/user-attachments/assets/94acae3a-a6cc-41e8-a209-0f0e7fd72062)
 
 - **圖像大小**：28×28 像素，RGB 彩色圖像
@@ -64,14 +64,14 @@ PathMNIST 是 MedMNIST 數據集系列的一部分，專門用於病理學圖像
   8. 間質 (STR)
   9. 腫瘤上皮 (TUM)
 
-### 數據預處理流程
+### 資料預處理流程
 - 圖像預處理：
   1. 轉換為張量（ToTensor）
   2. 轉換為灰度圖並擴展為3通道
   3. 標準化處理（Normalize）：使用均值 0.5 和標準差 0.5
 - 相關程式碼：`data/dataset.py`
 
-### 數據載入
+### 資料載入
 - 使用 PyTorch 的 DataLoader 進行批次載入
 - 預設批次大小（batch size）：64
 - 訓練集進行隨機打亂（shuffle=True）
@@ -94,9 +94,9 @@ PathMNIST 是 MedMNIST 數據集系列的一部分，專門用於病理學圖像
 - 特點：將圖像分割成小塊進行處理，注意力機制強大，但需要海量資料才訓練的來
 - 位置：`models/vit.py`
 
-## 數據處理
+## 資料處理
 
-- 使用 PathMNIST 數據集
+- 使用 PathMNIST 資料集
 - 圖像預處理：
   1. 轉換為張量
   2. 轉換為灰度圖並擴展為3通道
@@ -139,7 +139,7 @@ python main.py
 
 1. 添加驗證集評估
 2. 實現更多模型架構
-3. 添加數據增強
+3. 添加資料增強
 4. 添加學習率調度器
 5. 添加早停機制
 
@@ -156,12 +156,12 @@ python main.py
 3. **準確率不理想**
    - 調整學習率
    - 增加訓練輪數
-   - 添加數據增強
+   - 添加資料增強
 
 ## 參考資料
 
 - [PyTorch 官方文檔](https://pytorch.org/docs/stable/index.html)
-- [MedMNIST 數據集](https://medmnist.com/)
+- [MedMNIST 資料集](https://medmnist.com/)
 - [VGG 論文: Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556)
 - [ResNet 論文: Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
 - [Vision Transformer 論文](https://arxiv.org/abs/2010.11929)
@@ -173,9 +173,9 @@ python main.py
 
 ## 注意事項
 
-- 確保有足夠的硬碟空間存放數據集
+- 確保有足夠的硬碟空間存放資料集
 - 建議使用 GPU 進行訓練
-- 第一次運行時會自動下載數據集，需要等待一段時間
+- 第一次運行時會自動下載資料集，需要等待一段時間
 
 ## 其他參考資料
 另外可以參考這份：
