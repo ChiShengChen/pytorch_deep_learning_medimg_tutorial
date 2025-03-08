@@ -58,9 +58,9 @@ PathMNIST 是 MedMNIST 資料集系列的一部分，專門用於病理學圖像
   2. 結締組織 (BACK)
   3. 碎片 (DEB)
   4. 淋巴細胞 (LYM)
-  5. 粘液 (MUC)
+  5. 黏液 (MUC)
   6. 肌肉 (MUS)
-  7. 正常結腸粘膜 (NORM)
+  7. 正常結腸黏膜 (NORM)
   8. 間質 (STR)
   9. 腫瘤上皮 (TUM)
 
