@@ -81,7 +81,7 @@ python main.py
 1. 克隆專案：
 
 ```bash
-git clone https://github.com/yourusername/medical_image_classification.git
+git clone https://github.com/ChiShengChen/pytorch_deep_learning_medimg_tutorial.git
 ```
 
 2. 運行訓練：
