@@ -45,6 +45,8 @@ python main.py
 
 ### PathMNIST 數據集介紹
 PathMNIST 是 MedMNIST 數據集系列的一部分，專門用於病理學圖像分類：
+![image](https://github.com/user-attachments/assets/94acae3a-a6cc-41e8-a209-0f0e7fd72062)
+
 - **圖像大小**：28×28 像素，RGB 彩色圖像
 - **類別數量**：9 種不同的組織類型
 - **數據分布**：
