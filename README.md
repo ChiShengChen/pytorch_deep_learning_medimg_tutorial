@@ -10,7 +10,8 @@ medical_image_classification/
 ├── models/ # 模型定義
 │ ├── vgg.py # VGG16 模型
 │ ├── resnet.py # ResNet18 模型
-│ └── vit.py # Vision Transformer 模型
+│ ├── vit.py # Vision Transformer 模型
+│ └── vit_handmade.py # 純pytorch疊成的Vision Transformer 模型
 │
 ├── data/ # 資料處理
 │ └── dataset.py # 資料載入和預處理
@@ -169,6 +170,7 @@ python main.py
 ## 執行過程截圖
 <img width="675" alt="image" src="https://github.com/user-attachments/assets/e96d5580-f06b-4cf0-b954-732a081d3800" />
 
+<img width="591" alt="image" src="https://github.com/user-attachments/assets/569605b9-e86e-4946-887d-1ebd5d99fcda" />
 
 
 ## 注意事項
