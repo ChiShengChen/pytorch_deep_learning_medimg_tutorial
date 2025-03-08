@@ -180,5 +180,5 @@ python main.py
 - 第一次運行時會自動下載資料集，需要等待一段時間
 
 ## 其他參考資料
-另外可以參考這份：
+這份以影像辨識為主，若想學其他時序模型可以參考這份：
 https://github.com/ChiShengChen/Deep_learning_introducrion
