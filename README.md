@@ -131,6 +131,11 @@ python main.py
 - [ResNet 論文: Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
 - [Vision Transformer 論文](https://arxiv.org/abs/2010.11929)
 
+## 執行過程截圖
+<img width="675" alt="image" src="https://github.com/user-attachments/assets/e96d5580-f06b-4cf0-b954-732a081d3800" />
+
+
+
 ## 注意事項
 
 - 確保有足夠的硬碟空間存放數據集
