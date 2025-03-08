@@ -111,7 +111,7 @@ PathMNIST 是 MedMNIST 數據集系列的一部分，專門用於病理學圖像
 
 ## 如何使用
 
-1. 克隆專案：
+1. 複製下載專案：
 
 ```bash
 git clone https://github.com/ChiShengChen/pytorch_deep_learning_medimg_tutorial.git
@@ -174,3 +174,7 @@ python main.py
 - 確保有足夠的硬碟空間存放數據集
 - 建議使用 GPU 進行訓練
 - 第一次運行時會自動下載數據集，需要等待一段時間
+
+## 其他參考資料
+另外可以參考這份：
+https://github.com/ChiShengChen/Deep_learning_introducrion
