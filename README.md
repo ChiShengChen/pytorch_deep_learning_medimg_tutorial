@@ -164,7 +164,7 @@ python main.py
 - [MedMNIST 資料集](https://medmnist.com/)
 - [VGG 論文: Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556)
 - [ResNet 論文: Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
-- [Vision Transformer 論文](https://arxiv.org/abs/2010.11929)
+- [Vision Transformer 論文: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)
 
 ## 執行過程截圖
 <img width="675" alt="image" src="https://github.com/user-attachments/assets/e96d5580-f06b-4cf0-b954-732a081d3800" />
