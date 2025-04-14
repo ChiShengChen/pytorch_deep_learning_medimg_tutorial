@@ -18,7 +18,7 @@ def train_and_test(model, train_loader, device, model_name, epochs=10):
         running_loss, correct, total = 0.0, 0, 0
         for images, labels in train_loader:
             images, labels = images.to(device), labels.to(device)
-            labels = labels.squeeze()
+            labels = labels.squeeze().long()
             optimizer.zero_grad()
             outputs = model(images)
             loss = criterion(outputs, labels)
