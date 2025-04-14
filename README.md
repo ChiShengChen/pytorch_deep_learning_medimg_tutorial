@@ -31,7 +31,7 @@ medical_image_classification/
 
 ```bash
 pip install torch torchvision torchaudio
-pip install numpy matplotlib 
+pip install numpy matplotlib medmnist
 ```
 
 ## 訓練和測試
