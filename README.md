@@ -30,7 +30,8 @@ medical_image_classification/
 2. 安裝所需的套件：
 
 ```bash
-pip install torch torchvision numpy matplotlib
+pip install torch torchvision torchaudio
+pip install numpy matplotlib 
 ```
 
 ## 訓練和測試
